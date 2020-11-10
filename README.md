@@ -1,3 +1,5 @@
+## What's swing
+
 An operation tool can failover the un-fulfilled Spot instance by On-Demand instance, to balance cost
 and availability for your EC2 instance fleet, by make up and down AWS EC2 instance between Spot and On-Demand two AutoScaling
 groups.
@@ -38,3 +40,11 @@ required arguments:
   -o ONDEMAND_ASG_NAME, --ondemand-asg-name ONDEMAND_ASG_NAME
                         the On-Demand AutoScaling group name
 ```
+
+## Security
+
+See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+
+## License
+
+This library is licensed under the MIT-0 License. See the LICENSE file.
